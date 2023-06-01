@@ -1,0 +1,55 @@
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.25rem;
+}
+
+a[data-style="btn"] {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: hsl(141, 78%, 45%);
+  border: none;
+  border-radius: 5px;
+}
+
+a[data-style="btn"]:hover {
+  background: hsl(141, 78%, 50%);
+}
+
+button {
+  font: inherit;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[data-style="danger"] {
+  background-color: hsl(0, 100%, 62%);
+}
+button[data-style="danger"]:hover {
+  background-color: hsl(0, 100%, 65%);
+}
+
+button[data-style="primary"] {
+  background-color: hsl(240, 100%, 71.8%);
+}
+button[data-style="primary"]:hover {
+  background-color: hsl(240, 100%, 75%);
+}
+
+.recorder-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.screen-recording {
+  display: block;
+  width: min(90%, 100%);
+  margin-inline: auto;
+  margin-block-start: 2em;
+}
